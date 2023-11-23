@@ -1,10 +1,10 @@
-/* Réinitialisation des styles de base du navigateur */
+/* RÃ©initialisation des styles de base du navigateur */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Styles généraux */
+/* Styles gÃ©nÃ©raux */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 section {
-    background-color: #fff;
+    background-color: #ffffd4;
     padding: 20px;
     margin: 10px;
 }
