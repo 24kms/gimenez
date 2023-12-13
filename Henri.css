@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Couleur du texte, à ajuster selon l'image */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('./photo/UN.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: changeBackground 0.5s infinite; /* Définit l'animation */
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background: url('./photo/2.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    20% {
+      background: url('./photo/3.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    40% {
+      background: url('./photo/4.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    60% {
+      background: url('./photo/5.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    80% {
+      background: url('./photo/UN.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    100% {
+        background: url('./photo/7.jpg') no-repeat center center fixed;
+        background-size: cover;
+      }
+  }
+  
+  figure {
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(to bottom, #434087, #121042);
+    color: white;
+    padding: 16px 24px;
+    border: 4px white outset;
+    border-radius: 8px;
+  }
+  figure img {
+    margin-right: 20px;
+  }
+  blockquote {
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 1.2em;
+  }
+  
