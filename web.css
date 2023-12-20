@@ -62,3 +62,18 @@ footer {
         display: inline-block;
      }
 }
+table {
+    border-collapse: collapse;
+    width: 60%; /* Table width */
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px; /* Adjust the max-width as needed */
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0); /* Table cell border with alpha channel for transparency */
+    padding: 10px; /* Cell padding */
+}
